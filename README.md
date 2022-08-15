@@ -28,7 +28,7 @@ Select following folders:
 #### Press submit
 
 - Press open interface 
-- Type:`setwd("work/R/bookoftruesight")`
+- Type:`setwd("work/bookoftruesight")`
 
 ## Enjoy your data surf :) 
 
