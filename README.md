@@ -27,6 +27,7 @@ Select following folders:
 
 #### Press submit
 #### Press open interface
+- N.B.! Only press ONCE on "compute differential expression analysis". Genes can be looked up for the model used. Press only again if another model is to be used (e.g. with gender correction ~gender+treatment).
 
 ## Enjoy your data surf :) 
 
