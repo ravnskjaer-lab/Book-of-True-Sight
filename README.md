@@ -16,21 +16,17 @@ To be accepted for upload to the data folder on Ucloud, the data **must** comply
 - [x] Update the KR/LG dataset database [here](https://syddanskuni.sharepoint.com.mcas.ms/:x:/r/Sites/Hepatic_fanatics/_layouts/15/Doc.aspx?sourcedoc=%7B9C879D54-4F98-4CC4-A090-50A64DB5B9CD%7D&file=LG.KR_datasets.xlsx&action=default&mobileredirect=true&cid=e05664f4-1030-40ef-bc81-ee665b7f8481)
 
 ### Running the app on Ucloud: ###
-Open Ucloud and start a Rstudio application [here](https://cloud.sdu.dk/app/jobs/create?app=rstudio&version=4.2.0) and
+Open Ucloud and start a Shiny application [here](https://cloud.sdu.dk/app/jobs/create?app=shiny&version=4.2.0) and
 select an appropriate machine type:
 - 23 GB RAM is a little better than your own computer 
-- 47 GB ram is fast for this application
+- 94 GB ram is fast for this application
 
 Select following folders:
-- Ravnskjaer -> Software -> R
-- Ravnskjaer -> Software -> bookoftruesight
+- Input folder: Ravnskjaer -> Software -> bookoftruesight
+- Additional folder -> Software -> R
 
 #### Press submit
 #### Press open interface
-
-- Type: `setwd("work/bookoftruesight")`
-- Type: `library(shiny)`
-- Type: `runApp("work/bookoftruesight/app.R")`
 
 ## Enjoy your data surf :) 
 
