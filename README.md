@@ -11,10 +11,7 @@ To be accepted for upload to the data folder on Ucloud, the data **must** comply
 
 - [x] The DESeq2 object must have removed sizeFactor information using: DESeq2object$sizeFactor <- NULL 
 
-- [x] If model was adjusted during intial differential expression analysis, remove Replacable variable using: DESeq2object$Replacable <- NULL
-
-
-![](https://tenor.com/view/spiderman-responsibility-gif-4589950)
+- [x] If model was adjusted during intial differential expression analysis, remove replaceable variable using: DESeq2object$replaceable <- NULL
 
 
 ### Running the app on Ucloud: ###
