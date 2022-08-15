@@ -7,11 +7,11 @@ To be accepted for upload to the data folder on Ucloud, the data **must** comply
   
 - [x] The data must be in a DESeq2 object.
 
-- [x] The DESeq2 object must include owner information using: mcols(DESeq2object)$owner <- "OWNER INITIALS".
+- [x] The DESeq2 object must include owner information using: `mcols(DESeq2object)$owner <- "OWNER INITIALS"`
 
-- [x] The DESeq2 object must have removed sizeFactor information using: DESeq2object$sizeFactor <- NULL 
-
-- [x] If model was adjusted during intial differential expression analysis, remove replaceable variable using: DESeq2object$replaceable <- NULL
+- [x] The DESeq2 object must have removed sizeFactor information using: `DESeq2object$sizeFactor <- NULL` 
+`
+- [x] If model was adjusted during intial differential expression analysis, remove replaceable variable using: `DESeq2object$replaceable <- NULL`
 
 - [x] Update the KR/LG dataset database [here](https://syddanskuni.sharepoint.com.mcas.ms/:x:/r/Sites/Hepatic_fanatics/_layouts/15/Doc.aspx?sourcedoc=%7B9C879D54-4F98-4CC4-A090-50A64DB5B9CD%7D&file=LG.KR_datasets.xlsx&action=default&mobileredirect=true&cid=e05664f4-1030-40ef-bc81-ee665b7f8481)
 
@@ -27,8 +27,8 @@ Select following folders:
 
 #### Press submit
 
-- Press ppen interface 
-- Navigate to the app located: work/R/bookoftruesight
+- Press open interface 
+- Type:`setwd("work/R/bookoftruesight")`
 
 ## Enjoy your data surf :) 
 
