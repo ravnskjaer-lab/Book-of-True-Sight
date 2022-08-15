@@ -4,6 +4,8 @@
 
 
 To be accepted for upload to the data folder on Ucloud, the data **must** comply with the following requirements:
+
+#### An example is given in dataset.prep.example.R 
   
 - [x] The data must be in a DESeq2 object.
 
