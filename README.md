@@ -23,7 +23,7 @@ Select an appropriate machine type:
 
 Select following folders:
 - Ravnskjaer -> Software -> R
-- Ravnskjaer -> Software -> Shiny
+- Ravnskjaer -> Software -> bookoftruesight
 
 #### Press submit
 
