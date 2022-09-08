@@ -19,12 +19,13 @@ To be accepted for upload to the data folder on Ucloud, the data **must** comply
 
 ### Running the app on Ucloud with predetermined or user-specified settings: ###
 Open Ucloud and start a Shiny application [here](https://cloud.sdu.dk/app/jobs/create?app=shiny&version=4.2.0)
-## Predetermined:
+### Predetermined:
 - Click "Import parameters" --> Click "Select file from Ucloud"
 - Navigate to Ravnskjaer/Software/ and select ShinyParameters.json
 
+#### Press submit
 
-### User-specified settings: ###
+### User-specified settings:
 Select an appropriate machine type:
 - 23 GB RAM is a little better than your own computer 
 - 94 GB ram is fast for this application
